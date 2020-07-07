@@ -204,135 +204,7 @@ class DataProcessor(object):
       return lines
 
 
-class XnliProcessor(DataProcessor):
-  """Processor for the XNLI data set."""
-
-  def __init__(self):
-    self.language = "zh"
-
-  def get_train_examples(self, data_dir):
-    """See base class."""
-    lines = self._read_tsv(
-        os.path.join(data_dir, "multinli",
-                     "multinli.train.%s.tsv" % self.language))
-    examples = []
-    for (i, line) in enumerate(lines):
-      if i == 0:
-        continue
-      guid = "train-%d" % (i)
-      text_a = tokenization.convert_to_unicode(line[0])
-      text_b = tokenization.convert_to_unicode(line[1])
-      label = tokenization.convert_to_unicode(line[2])
-      if label == tokenization.convert_to_unicode("contradictory"):
-        label = tokenization.convert_to_unicode("contradiction")
-      examples.append(
-          InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
-    return examples
-
-  def get_dev_examples(self, data_dir):
-    """See base class."""
-    lines = self._read_tsv(os.path.join(data_dir, "xnli.dev.tsv"))
-    examples = []
-    for (i, line) in enumerate(lines):
-      if i == 0:
-        continue
-      guid = "dev-%d" % (i)
-      language = tokenization.convert_to_unicode(line[0])
-      if language != tokenization.convert_to_unicode(self.language):
-        continue
-      text_a = tokenization.convert_to_unicode(line[6])
-      text_b = tokenization.convert_to_unicode(line[7])
-      label = tokenization.convert_to_unicode(line[1])
-      examples.append(
-          InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
-    return examples
-
-  def get_labels(self):
-    """See base class."""
-    return ["contradiction", "entailment", "neutral"]
-
-
-class MnliProcessor(DataProcessor):
-  """Processor for the MultiNLI data set (GLUE version)."""
-
-  def get_train_examples(self, data_dir):
-    """See base class."""
-    return self._create_examples(
-        self._read_tsv(os.path.join(data_dir, "train.tsv")), "train")
-
-  def get_dev_examples(self, data_dir):
-    """See base class."""
-    return self._create_examples(
-        self._read_tsv(os.path.join(data_dir, "dev_matched.tsv")),
-        "dev_matched")
-
-  def get_test_examples(self, data_dir):
-    """See base class."""
-    return self._create_examples(
-        self._read_tsv(os.path.join(data_dir, "test_matched.tsv")), "test")
-
-  def get_labels(self):
-    """See base class."""
-    return ["contradiction", "entailment", "neutral"]
-
-  def _create_examples(self, lines, set_type):
-    """Creates examples for the training and dev sets."""
-    examples = []
-    for (i, line) in enumerate(lines):
-      if i == 0:
-        continue
-      guid = "%s-%s" % (set_type, tokenization.convert_to_unicode(line[0]))
-      text_a = tokenization.convert_to_unicode(line[8])
-      text_b = tokenization.convert_to_unicode(line[9])
-      if set_type == "test":
-        label = "contradiction"
-      else:
-        label = tokenization.convert_to_unicode(line[-1])
-      examples.append(
-          InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
-    return examples
-
-
-class MrpcProcessor(DataProcessor):
-  """Processor for the MRPC data set (GLUE version)."""
-
-  def get_train_examples(self, data_dir):
-    """See base class."""
-    return self._create_examples(
-        self._read_tsv(os.path.join(data_dir, "train.tsv")), "train")
-
-  def get_dev_examples(self, data_dir):
-    """See base class."""
-    return self._create_examples(
-        self._read_tsv(os.path.join(data_dir, "dev.tsv")), "dev")
-
-  def get_test_examples(self, data_dir):
-    """See base class."""
-    return self._create_examples(
-        self._read_tsv(os.path.join(data_dir, "test.tsv")), "test")
-
-  def get_labels(self):
-    """See base class."""
-    return ["0", "1"]
-
-  def _create_examples(self, lines, set_type):
-    """Creates examples for the training and dev sets."""
-    examples = []
-    for (i, line) in enumerate(lines):
-      if i == 0:
-        continue
-      guid = "%s-%s" % (set_type, i)
-      text_a = tokenization.convert_to_unicode(line[3])
-      text_b = tokenization.convert_to_unicode(line[4])
-      if set_type == "test":
-        label = "0"
-      else:
-        label = tokenization.convert_to_unicode(line[0])
-      examples.append(
-          InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
-    return examples
-
-class GemProcessor(DataProcessor):
+class NerProcessor(DataProcessor):
   """Processor for the MRPC data set (GLUE version)."""
   def get_train_examples(self, data_dir):
     """See base class."""
@@ -351,17 +223,7 @@ class GemProcessor(DataProcessor):
 
   def get_labels(self):
     """See base class."""
-    return [
-      "affirm",
-      "buy_flight_ticket",
-      "buy_ticket",
-      "buy_train_ticket",
-      "cancel",
-      "deny",
-      "inform",
-      "weather_condition",
-      "weather_general"
-    ]
+    return ["affirm", "buy_flight_ticket", "buy_ticket", "buy_train_ticket", "cancel", "deny", "inform", "weather_condition", "weather_general", "O", "B_出发地", "I_出发地", "B_地点", "I_地点", "B_天气现象", "I_天气现象", "B_日期时间", "I_日期时间", "B_目的地", "I_目的地"]
 
   def _create_examples(self, lines, set_type):
     """Creates examples for the training and dev sets."""
@@ -369,53 +231,32 @@ class GemProcessor(DataProcessor):
     for (i, line) in enumerate(lines):
       guid = "%s-%s" % (set_type, i)
 
-      text = tokenization.convert_to_unicode(line[1])
-      label = tokenization.convert_to_unicode(line[0])
+      text = tokenization.convert_to_unicode(' '.join(line[1]))
+      label = [tokenization.convert_to_unicode(line[0])]
+
+      length = len(text)
+      ner_labels = ['O'] * length
+
+      if line[2]:
+        entities = line[2].split('|')
+
+
+        for e in entities:
+            fields = e.split(':')
+            entity_begin = int(fields[0])
+            entity_length = int(fields[1])
+            entity_name = fields[2]
+
+            ner_labels[entity_begin] = tokenization.convert_to_unicode('B_' + entity_name)
+
+            for i in range(1, entity_length):
+              ner_labels[entity_begin + i] = tokenization.convert_to_unicode('I_' + entity_name)
+
+      label = ' '.join(label + ner_labels)
 
       examples.append(
           InputExample(guid=guid, text_a=text, text_b=None, label=label))
     return examples
-
-class ColaProcessor(DataProcessor):
-  """Processor for the CoLA data set (GLUE version)."""
-
-  def get_train_examples(self, data_dir):
-    """See base class."""
-    return self._create_examples(
-        self._read_tsv(os.path.join(data_dir, "train.tsv")), "train")
-
-  def get_dev_examples(self, data_dir):
-    """See base class."""
-    return self._create_examples(
-        self._read_tsv(os.path.join(data_dir, "dev.tsv")), "dev")
-
-  def get_test_examples(self, data_dir):
-    """See base class."""
-    return self._create_examples(
-        self._read_tsv(os.path.join(data_dir, "test.tsv")), "test")
-
-  def get_labels(self):
-    """See base class."""
-    return ["0", "1"]
-
-  def _create_examples(self, lines, set_type):
-    """Creates examples for the training and dev sets."""
-    examples = []
-    for (i, line) in enumerate(lines):
-      # Only the test set has a header
-      if set_type == "test" and i == 0:
-        continue
-      guid = "%s-%s" % (set_type, i)
-      if set_type == "test":
-        text_a = tokenization.convert_to_unicode(line[1])
-        label = "0"
-      else:
-        text_a = tokenization.convert_to_unicode(line[3])
-        label = tokenization.convert_to_unicode(line[1])
-      examples.append(
-          InputExample(guid=guid, text_a=text_a, text_b=None, label=label))
-    return examples
-
 
 def convert_single_example(ex_index, example, label_list, max_seq_length,
                            tokenizer):
@@ -430,8 +271,14 @@ def convert_single_example(ex_index, example, label_list, max_seq_length,
         is_real_example=False)
 
   label_map = {}
+  ner_o_label = None
   for (i, label) in enumerate(label_list):
     label_map[label] = i
+
+    if label == 'O':
+      ner_o_label = i
+
+  assert ner_o_label is not None
 
   tokens_a = tokenizer.tokenize(example.text_a)
   tokens_b = None
@@ -499,7 +346,16 @@ def convert_single_example(ex_index, example, label_list, max_seq_length,
   assert len(input_mask) == max_seq_length
   assert len(segment_ids) == max_seq_length
 
-  label_id = label_map[example.label]
+  labels = example.label.split(' ')
+
+  label_id = [label_map[label] for label in labels]
+  for i in range(len(label_id)):
+    if label_id[i] >= ner_o_label:
+      label_id[i] = label_id[i] - ner_o_label
+
+  while len(label_id) < max_seq_length:
+    label_id.append(0)
+
   if ex_index < 5:
     tf.logging.info("*** Example ***")
     tf.logging.info("guid: %s" % (example.guid))
@@ -508,7 +364,7 @@ def convert_single_example(ex_index, example, label_list, max_seq_length,
     tf.logging.info("input_ids: %s" % " ".join([str(x) for x in input_ids]))
     tf.logging.info("input_mask: %s" % " ".join([str(x) for x in input_mask]))
     tf.logging.info("segment_ids: %s" % " ".join([str(x) for x in segment_ids]))
-    tf.logging.info("label: %s (id = %d)" % (example.label, label_id))
+    tf.logging.info("label: %s (id = %s)" % (example.label, str(label_id)))
 
   feature = InputFeatures(
       input_ids=input_ids,
@@ -540,7 +396,7 @@ def file_based_convert_examples_to_features(
     features["input_ids"] = create_int_feature(feature.input_ids)
     features["input_mask"] = create_int_feature(feature.input_mask)
     features["segment_ids"] = create_int_feature(feature.segment_ids)
-    features["label_ids"] = create_int_feature([feature.label_id])
+    features["label_ids"] = create_int_feature(feature.label_id)
     features["is_real_example"] = create_int_feature(
         [int(feature.is_real_example)])
 
@@ -557,7 +413,7 @@ def file_based_input_fn_builder(input_file, seq_length, is_training,
       "input_ids": tf.FixedLenFeature([seq_length], tf.int64),
       "input_mask": tf.FixedLenFeature([seq_length], tf.int64),
       "segment_ids": tf.FixedLenFeature([seq_length], tf.int64),
-      "label_ids": tf.FixedLenFeature([], tf.int64),
+      "label_ids": tf.FixedLenFeature([seq_length], tf.int64),
       "is_real_example": tf.FixedLenFeature([], tf.int64),
   }
 
@@ -615,7 +471,7 @@ def _truncate_seq_pair(tokens_a, tokens_b, max_length):
 
 
 def create_model(bert_config, is_training, input_ids, input_mask, segment_ids,
-                 labels, num_labels, use_one_hot_embeddings):
+                 labels, num_class_labels, num_entity_labels, use_one_hot_embeddings):
   """Creates a classification model."""
   model = modeling.BertModel(
       config=bert_config,
@@ -630,36 +486,60 @@ def create_model(bert_config, is_training, input_ids, input_mask, segment_ids,
   #
   # If you want to use the token-level output, use model.get_sequence_output()
   # instead.
-  output_layer = model.get_pooled_output()
+  output_layer = model.get_sequence_output()
 
   hidden_size = output_layer.shape[-1].value
 
   output_weights = tf.get_variable(
-      "output_weights", [num_labels, hidden_size],
+      "output_weights", [num_class_labels, hidden_size],
       initializer=tf.truncated_normal_initializer(stddev=0.02))
 
   output_bias = tf.get_variable(
-      "output_bias", [num_labels], initializer=tf.zeros_initializer())
+      "output_bias", [num_class_labels], initializer=tf.zeros_initializer())
+
+  output_weights_ner = tf.get_variable(
+      "output_weights_ner", [num_entity_labels, hidden_size],
+      initializer=tf.truncated_normal_initializer(stddev=0.02))
+
+  crf_trans = tf.get_variable(
+      "crf_trans", [num_entity_labels, num_entity_labels],
+      initializer=tf.truncated_normal_initializer(stddev=0.02))
+
+  output_bias_ner = tf.get_variable(
+      "output_bias_ner", [num_entity_labels], initializer=tf.zeros_initializer())
+
+  input_length = tf.reduce_sum(input_mask, axis=-1) - 2
 
   with tf.variable_scope("loss"):
     if is_training:
       # I.e., 0.1 dropout
       output_layer = tf.nn.dropout(output_layer, keep_prob=0.9)
 
-    logits = tf.matmul(output_layer, output_weights, transpose_b=True)
-    logits = tf.nn.bias_add(logits, output_bias)
-    probabilities = tf.nn.softmax(logits, axis=-1)
-    log_probs = tf.nn.log_softmax(logits, axis=-1)
+    # class loss
+    logits_class = tf.matmul(output_layer[:, 0], output_weights, transpose_b=True)
+    logits_class = tf.nn.bias_add(logits_class, output_bias)
+    probabilities_class = tf.nn.softmax(logits_class, axis=-1)
+    log_probs_class = tf.nn.log_softmax(logits_class, axis=-1)
 
-    one_hot_labels = tf.one_hot(labels, depth=num_labels, dtype=tf.float32)
+    one_hot_labels_class = tf.one_hot(labels[:, 0], depth=num_class_labels, dtype=tf.float32)
 
-    per_example_loss = -tf.reduce_sum(one_hot_labels * log_probs, axis=-1)
-    loss = tf.reduce_mean(per_example_loss)
-
-    return (loss, per_example_loss, logits, probabilities)
+    per_example_loss_class = -tf.reduce_sum(one_hot_labels_class * log_probs_class, axis=-1)
+    loss_class = tf.reduce_mean(per_example_loss_class)
 
 
-def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
+    # NER loss
+    logits_entity = tf.matmul(output_layer[:, 1:], output_weights_ner, transpose_b=True)
+    logits_entity = tf.nn.bias_add(logits_entity, output_bias_ner)
+
+    # crf_pred_ids, _ = tf.contrib.crf.crf_decode(logits_entity, crf_trans, input_length)
+
+    log_probs_entity, _ = tf.contrib.crf.crf_log_likelihood(logits_entity, labels[:, 1:], input_length, crf_trans)
+    loss_entity = tf.reduce_mean(-log_probs_entity)
+
+    return (loss_class + loss_entity * 4, per_example_loss_class + (-log_probs_entity), logits_class, probabilities_class, logits_entity, crf_trans, input_length)
+
+
+def model_fn_builder(bert_config, num_class_labels, num_entity_labels, init_checkpoint, learning_rate,
                      num_train_steps, num_warmup_steps, use_tpu,
                      use_one_hot_embeddings):
   """Returns `model_fn` closure for TPUEstimator."""
@@ -683,9 +563,9 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
 
     is_training = (mode == tf.estimator.ModeKeys.TRAIN)
 
-    (total_loss, per_example_loss, logits, probabilities) = create_model(
+    (total_loss, per_example_loss, logits_class, probabilities_class, logits_entity, crf_trans, input_length) = create_model(
         bert_config, is_training, input_ids, input_mask, segment_ids, label_ids,
-        num_labels, use_one_hot_embeddings)
+        num_class_labels, num_entity_labels, use_one_hot_embeddings)
 
     tvars = tf.trainable_variables()
     initialized_variable_names = {}
@@ -713,7 +593,6 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
 
     output_spec = None
     if mode == tf.estimator.ModeKeys.TRAIN:
-
       train_op = optimization.create_optimizer(
           total_loss, learning_rate, num_train_steps, num_warmup_steps, use_tpu)
 
@@ -724,27 +603,43 @@ def model_fn_builder(bert_config, num_labels, init_checkpoint, learning_rate,
           scaffold_fn=scaffold_fn)
     elif mode == tf.estimator.ModeKeys.EVAL:
 
-      def metric_fn(per_example_loss, label_ids, logits, is_real_example):
-        predictions = tf.argmax(logits, axis=-1, output_type=tf.int32)
-        accuracy = tf.metrics.accuracy(
-            labels=label_ids, predictions=predictions, weights=is_real_example)
+      def metric_fn(per_example_loss, label_ids, logits_class, logits_entity, crf_trans, input_length, is_real_example):
+        predictions_class = tf.argmax(logits_class, axis=-1, output_type=tf.int32)
+        accuracy_class = tf.metrics.accuracy(
+            labels=label_ids[:, 0], predictions=predictions_class, weights=is_real_example)
+
+        pred_ids, _ = tf.contrib.crf.crf_decode(logits_entity, crf_trans, input_length)
+        crf_correct = tf.cast(tf.reduce_all(tf.equal(pred_ids, label_ids[:, 1:]), axis=-1), dtype=tf.int32)
+        accuracy_entity = tf.metrics.accuracy(labels=tf.ones_like(crf_correct), predictions=crf_correct, weights=is_real_example)
+
         loss = tf.metrics.mean(values=per_example_loss, weights=is_real_example)
         return {
-            "eval_accuracy": accuracy,
+            "eval_accuracy": accuracy_class,
+            "eval_crf_accuracy": accuracy_entity,
             "eval_loss": loss,
         }
 
       eval_metrics = (metric_fn,
-                      [per_example_loss, label_ids, logits, is_real_example])
+                      [per_example_loss, label_ids, logits_class, logits_entity, crf_trans, input_length, is_real_example])
       output_spec = tf.contrib.tpu.TPUEstimatorSpec(
           mode=mode,
           loss=total_loss,
           eval_metrics=eval_metrics,
           scaffold_fn=scaffold_fn)
     else:
+      predictions_class = tf.argmax(logits_class, axis=-1, output_type=tf.int32)
+
+      pred_ids, _ = tf.contrib.crf.crf_decode(logits_entity, crf_trans, input_length)
+      crf_correct = tf.reduce_all(tf.equal(pred_ids, label_ids[:, 1:]), axis=-1)
+
       output_spec = tf.contrib.tpu.TPUEstimatorSpec(
           mode=mode,
-          predictions={"probabilities": probabilities},
+          predictions={
+            "probabilities": probabilities_class,
+            "class": predictions_class,
+            "ner": pred_ids,
+            "crf_correct": crf_correct
+          },
           scaffold_fn=scaffold_fn)
     return output_spec
 
@@ -827,11 +722,7 @@ def main(_):
   tf.logging.set_verbosity(tf.logging.INFO)
 
   processors = {
-      "cola": ColaProcessor,
-      "mnli": MnliProcessor,
-      "mrpc": MrpcProcessor,
-      "xnli": XnliProcessor,
-      "gem": GemProcessor
+      "ner": NerProcessor
   }
 
   tokenization.validate_case_matches_checkpoint(FLAGS.do_lower_case,
@@ -888,9 +779,13 @@ def main(_):
         len(train_examples) / FLAGS.train_batch_size * FLAGS.num_train_epochs)
     num_warmup_steps = int(num_train_steps * FLAGS.warmup_proportion)
 
+  num_class_labels = label_list.index('O')
+  num_entity_labels = len(label_list) - num_class_labels
+
   model_fn = model_fn_builder(
       bert_config=bert_config,
-      num_labels=len(label_list),
+      num_class_labels=num_class_labels,
+      num_entity_labels=num_entity_labels,
       init_checkpoint=FLAGS.init_checkpoint,
       learning_rate=FLAGS.learning_rate,
       num_train_steps=num_train_steps,
@@ -998,7 +893,7 @@ def main(_):
         is_training=False,
         drop_remainder=predict_drop_remainder)
 
-    result = estimator.predict(input_fn=predict_input_fn)
+    result = list(estimator.predict(input_fn=predict_input_fn))
 
     output_predict_file = os.path.join(FLAGS.output_dir, "test_results.tsv")
     with tf.gfile.GFile(output_predict_file, "w") as writer:
@@ -1014,6 +909,26 @@ def main(_):
         writer.write(output_line)
         num_written_lines += 1
     assert num_written_lines == num_actual_predict_examples
+
+    output_predict_file = os.path.join(FLAGS.output_dir, "test_results_labels.tsv")
+    with tf.gfile.GFile(output_predict_file, "w") as writer:
+      num_written_lines = 0
+
+      ner_id_begin = label_list.index('O')
+
+      for (i, prediction) in enumerate(result):
+        class_id = prediction["class"]
+        ner_ids = prediction["ner"]
+        if i >= num_actual_predict_examples:
+          break
+
+        output_line = str(prediction["crf_correct"]) + "\t" + label_list[class_id] + "\t" + "\t".join(
+            label_list[ner_id_begin + id_]
+            for id_ in ner_ids) + "\n"
+        writer.write(output_line)
+        num_written_lines += 1
+
+    # assert num_written_lines == num_actual_predict_examples
 
 
 if __name__ == "__main__":

@@ -1,0 +1,500 @@
+buy_train_ticket	我要乘最近的高铁	3:2:日期时间
+deny	不同意	
+buy_ticket	我要买票	
+weather_general	黑龙江省大庆市红岗区杏树岗镇天气怎么样	0:14:地点
+inform	从虹桥机场出发	1:4:出发地
+buy_train_ticket	帮我买火车票	
+weather_condition	下个星期2有没有雨	0:5:日期时间|8:1:天气现象
+deny	不可以	
+buy_flight_ticket	我要买飞往大兴机场的票	5:4:目的地
+buy_ticket	我想要买票	
+weather_condition	浙江省金华市浦江县会下雨吗	0:9:地点|11:1:天气现象
+weather_condition	湖南省衡阳市珠晖区粤汉街道会打雷吗	0:13:地点|15:1:天气现象
+inform	二十五日	0:4:日期时间
+weather_condition	哈尔滨市延寿县寿山乡会打雷吗	0:10:地点|12:1:天气现象
+inform	飞往大兴机场	2:4:目的地
+affirm	确定	
+affirm	行	
+cancel	算了吧	
+deny	不要	
+buy_ticket	我想买这阵子的票	3:3:日期时间
+buy_train_ticket	帮我买高铁票	
+buy_train_ticket	帮我买这几天的高铁票	3:3:日期时间
+buy_flight_ticket	我要买机票	
+inform	从上海火车站出发	1:5:出发地
+buy_ticket	帮我买二月三十号的票	3:5:日期时间
+cancel	取消	
+weather_general	沧州市吴桥县于集镇七月30日的天气如何	0:9:地点|9:5:日期时间
+buy_flight_ticket	帮我买这两天的机票	3:3:日期时间
+weather_general	昭通市永善县桧溪镇的天气怎么样	0:9:地点
+weather_condition	这个月的29日胜利路街道会打雷么?	0:7:日期时间|7:5:地点|14:1:天气现象
+weather_condition	四月14号张家口市康保县屯垦镇会打雷吗	0:5:日期时间|5:10:地点|17:1:天气现象
+weather_condition	新疆维吾尔自治区和田地区于田县科克亚乡这阵子的有雨么	0:19:地点|19:3:日期时间|24:1:天气现象
+buy_ticket	我要买最近的票	3:2:日期时间
+affirm	是的	
+buy_train_ticket	我想乘车去徐州	5:2:目的地
+buy_train_ticket	帮我买这个月五日的火车票	3:5:日期时间
+buy_flight_ticket	我想买机票	
+weather_condition	伽师西克尔库勒有没有冰雹啊	0:7:地点|10:2:天气现象
+affirm	好的,就这样	
+buy_ticket	帮我买去周口的票	4:2:目的地
+buy_train_ticket	我要买去成都的车票	4:2:目的地
+buy_train_ticket	我想买六月二十七日的高铁票	3:6:日期时间
+buy_ticket	我要买去徐州的票	4:2:目的地
+buy_train_ticket	我要坐这几天的高铁	3:3:日期时间
+buy_train_ticket	我想乘高铁去重庆	6:2:目的地
+inform	从盐城市出发	1:3:出发地
+buy_flight_ticket	帮我买机票	
+buy_flight_ticket	我想买去浦东机场的机票	4:4:目的地
+deny	不是	
+weather_condition	下个月二十九日有没有霾	0:7:日期时间|10:1:天气现象
+deny	我不同意	
+inform	我从上海出发	2:2:出发地
+weather_condition	周日有雨么	0:2:日期时间|3:1:天气现象
+weather_condition	任城是不是会打雷呢？	0:2:地点|7:1:天气现象
+buy_ticket	我想买1914年七月十一日的票	3:10:日期时间
+buy_train_ticket	我要坐去长春的车	4:2:目的地
+deny	不对	
+buy_flight_ticket	我想乘飞机去上海浦东机场	6:6:目的地
+affirm	就这样	
+buy_flight_ticket	我想买飞机票	
+weather_condition	大田华兴大后年3月十日会下冰雹么	0:4:地点|4:7:日期时间|13:2:天气现象
+buy_train_ticket	我要买火车票	
+inform	北京东站	0:4:地点
+buy_train_ticket	帮我买去盐城的高铁票	4:2:目的地
+weather_general	贝江乡天气如何	0:3:地点
+buy_ticket	我想要买去天津的票	5:2:目的地
+inform	后年三月的22号	0:8:日期时间
+buy_train_ticket	我要坐一九三七年2月的12日的高铁	3:11:日期时间
+weather_condition	一九二五年七月的1日会下冰雹吗	0:10:日期时间|12:2:天气现象
+affirm	可以	
+inform	我去武汉	2:2:目的地
+weather_general	袁州区楠木乡天气	0:6:地点
+inform	西宁市	0:3:地点
+weather_condition	春节宣汉县白马乡有没有可能下小雨	0:2:日期时间|2:6:地点|15:1:天气现象
+weather_condition	下个月二十八号会打雷么？	0:7:日期时间|9:1:天气现象
+weather_general	古拉乡天气如何	0:3:地点
+buy_ticket	我想要买去蚌埠的票	5:2:目的地
+buy_ticket	我想买票	
+inform	到上海浦东机场	1:6:目的地
+buy_ticket	我想要买狂欢节的票	4:3:日期时间
+inform	上海火车站	0:5:地点
+inform	从大兴机场起飞	1:4:出发地
+buy_ticket	帮我买去天津的票	4:2:目的地
+buy_train_ticket	我要乘今年11月10号的高铁	3:8:日期时间
+inform	敦化青沟子	0:5:地点
+weather_condition	最近有没有霾	0:2:日期时间|5:1:天气现象
+inform	去昆明	1:2:目的地
+inform	我要从北京东站出发	3:4:出发地
+weather_general	山东省德州市齐河县祝阿镇天气	0:12:地点
+buy_ticket	我想买二〇一四年十一月17号的票	3:11:日期时间
+weather_general	西充县中南乡天气咋样	0:6:地点
+buy_ticket	我想要买二〇七二年十月28日的票	4:10:日期时间
+weather_general	聊城市临清市刘垓子镇天气	0:10:地点
+buy_train_ticket	帮我买去重庆的车票	4:2:目的地
+buy_flight_ticket	帮我买从白云机场出发的机票	4:4:出发地
+buy_ticket	我想买去周口市的票	4:3:目的地
+inform	我要到杭州东	3:3:目的地
+weather_general	帮忙播报一下天气	
+deny	反对	
+buy_train_ticket	我想坐去北京东站的火车	4:4:目的地
+inform	周日	0:2:日期时间
+weather_condition	后日有霾吗	0:2:日期时间|3:1:天气现象
+inform	到北京东站	1:4:目的地
+weather_condition	特尔希艾有没有雨呢	0:4:地点|7:1:天气现象
+buy_flight_ticket	我想买飞往首都国际机场的票	5:6:目的地
+buy_ticket	帮我买这两天的票	3:3:日期时间
+weather_general	明年八月8日天气咋样	0:6:日期时间
+buy_ticket	我要买去南宁的票	4:2:目的地
+weather_general	最近天气	0:2:日期时间
+weather_condition	纳雍县龙场镇一九二六年9月13号的会不会下冰雹	0:6:地点|6:10:日期时间|21:2:天气现象
+weather_general	安徽省池州市石台县横渡镇天气	0:12:地点
+weather_general	雅安市石棉县丰乐乡一九四二年十二月21日天气	0:9:地点|9:11:日期时间
+buy_flight_ticket	帮我买这阵子的机票	3:3:日期时间
+inform	去北京东站	1:4:目的地
+weather_condition	二十九日是不是会打雷呀	0:4:日期时间|9:1:天气现象
+inform	从盐城出发	1:2:出发地
+weather_general	报一下天气如何	
+affirm	好的,就这样吧	
+buy_flight_ticket	帮我买去白云机场的票	4:4:目的地
+buy_flight_ticket	帮我买从虹桥机场起飞的机票	4:4:出发地
+weather_general	播报天气咋样	
+buy_flight_ticket	我想要坐飞机飞往上海	8:2:目的地
+buy_flight_ticket	我想买去上海浦东机场的票	4:6:目的地
+buy_ticket	帮我买去深圳的票	4:2:目的地
+weather_general	播报一下天气	
+weather_general	这两天天气怎么样	0:3:日期时间
+buy_flight_ticket	帮我买去上海浦东机场的票	4:6:目的地
+buy_flight_ticket	我要买去白云机场的机票	4:4:目的地
+buy_ticket	帮我买票	
+buy_flight_ticket	我想买从虹桥机场起飞的票	4:4:出发地
+buy_train_ticket	我要坐去徐州市的车	4:3:目的地
+buy_flight_ticket	帮我买去首都国际机场的票	4:6:目的地
+weather_general	下月11号平陵镇天气怎么样	0:5:日期时间|5:3:地点
+buy_flight_ticket	我要坐这月二十一日的飞机	3:6:日期时间
+buy_flight_ticket	我想买周五的机票	3:2:日期时间
+buy_train_ticket	帮我买今年4月二十四日的高铁票	3:8:日期时间
+inform	去首都国际机场降落	1:6:目的地
+weather_condition	桐城新渡二零三一年十月23日会打雷吗	0:4:地点|4:10:日期时间|16:1:天气现象
+buy_flight_ticket	我要买从天津出发的机票	4:2:出发地
+buy_train_ticket	我要买高铁票	
+buy_ticket	帮我买下月二十八日的票	3:6:日期时间
+weather_condition	兴平南位会下冰雹吗?	0:4:地点|6:2:天气现象
+affirm	我确定	
+weather_general	佳方塌这阵子天气咋样	0:3:地点|3:3:日期时间
+buy_flight_ticket	我想要买机票	
+inform	合肥	0:2:地点
+weather_general	十三日天气如何	0:3:日期时间
+inform	从白云机场出发	1:4:出发地
+buy_flight_ticket	我想坐五月30日的飞机	3:5:日期时间
+weather_condition	下个月6号会下冰雹么?	0:5:日期时间|7:2:天气现象
+inform	到首都国际机场落地	1:6:目的地
+buy_flight_ticket	我要买飞往贵阳市的机票	5:3:目的地
+weather_condition	明日有冰雹吗	0:2:日期时间|3:2:天气现象
+deny	我反对	
+inform	今年一月的10日	0:8:日期时间
+deny	不行	
+inform	周1	0:2:日期时间
+buy_flight_ticket	帮我买飞机票	
+inform	去天津市	1:3:目的地
+buy_flight_ticket	帮我买飞往大兴机场的票	5:4:目的地
+inform	我要从上海出发	3:2:出发地
+inform	到浦东国际机场	1:6:目的地
+affirm	确认	
+buy_ticket	我要买周一的票	3:2:日期时间
+buy_flight_ticket	我要买春节的飞机票	3:2:日期时间
+inform	浦东国际机场	0:6:地点
+buy_ticket	我想买2032年的11月的28号的票	3:13:日期时间
+weather_condition	贵溪鸿塘2088年1月的16号的会打雷么	0:4:地点|4:11:日期时间|18:1:天气现象
+weather_general	河北省保定市涿州市桃园街道这个月16号天气咋样	0:13:地点|13:6:日期时间
+weather_general	大后年9月的十九日海安角斜天气	0:9:日期时间|9:4:地点
+weather_general	播报天气	
+buy_ticket	我要买最近两天的票	3:4:日期时间
+buy_train_ticket	帮我买5月二十八日的火车票	3:6:日期时间
+weather_general	阿坝县洛尔达乡15号天气咋样	0:7:地点|7:3:日期时间
+inform	去上海浦东机场降落	1:6:目的地
+weather_condition	井冈山市长坪乡是不是会下冰雹	0:7:地点|12:2:天气现象
+buy_ticket	帮我买二月十七号的票	3:5:日期时间
+weather_condition	河北省保定市易县梁格庄镇有没有冰雹呀	0:12:地点|15:2:天气现象
+weather_condition	四川省攀枝花市米易县头碾乡这两天会打雷么?	0:13:地点|13:3:日期时间|18:1:天气现象
+weather_condition	广安市岳池县乔家镇是不是会下冰雹呀	0:9:地点|14:2:天气现象
+inform	我要到大兴机场	3:4:目的地
+buy_train_ticket	我想乘高铁去虹桥火车站	6:5:目的地
+weather_condition	周4大姚铁锁会下雨么	0:2:日期时间|2:4:地点|8:1:天气现象
+buy_train_ticket	我想乘去重庆的高铁	4:2:目的地
+buy_flight_ticket	帮我买去首都国际机场的机票	4:6:目的地
+weather_condition	林州东姚有霾吗	0:4:地点|5:1:天气现象
+inform	首都国际机场	0:6:地点
+buy_train_ticket	我想买去深圳的高铁票	4:2:目的地
+weather_general	查天气	
+weather_condition	这两天会下大雨吗	0:3:日期时间|6:1:天气现象
+inform	从虹桥火车站出发	1:5:出发地
+weather_general	广东省江门市台山市四九镇天气	0:12:地点
+buy_train_ticket	我想要坐春节的高铁	4:2:日期时间
+weather_general	扬州市邗江区公道镇天气	0:9:地点
+weather_condition	星期五有没有雾霾	0:3:日期时间|6:2:天气现象
+weather_general	明日天气怎么样	0:2:日期时间
+buy_flight_ticket	我想要坐9月二十二号的飞机	4:6:日期时间
+weather_condition	这个月的二十八日有没有可能打雷	0:8:日期时间|14:1:天气现象
+weather_general	麻烦查天气	
+buy_flight_ticket	我要乘飞机从浦东机场出发	6:4:出发地
+buy_train_ticket	我想坐去徐州市的车	4:3:目的地
+weather_condition	广东省惠州龙门的最近有霾么	0:7:地点|8:2:日期时间|11:1:天气现象
+weather_general	云南省迪庆藏族自治州香格里拉市尼西乡天气	0:18:地点
+weather_condition	二〇九一年的5月一日有雨吗	0:10:日期时间|11:1:天气现象
+weather_general	这个月八日天气	0:5:日期时间
+buy_train_ticket	我想买火车票	
+weather_condition	端州的10号有没有冰雹	0:2:地点|3:3:日期时间|9:2:天气现象
+affirm	可以的	
+weather_general	给我播报天气	
+weather_condition	后天的清涧县双庙河乡有冰雹么	0:2:日期时间|3:7:地点|11:2:天气现象
+weather_general	八月八日天气如何	0:4:日期时间
+weather_general	西畴县蚌谷乡天气如何	0:6:地点
+weather_general	十二月的二十四号天气	0:8:日期时间
+inform	萨嘎县达吉岭乡	0:7:地点
+inform	我从浦东机场出发	2:4:出发地
+weather_general	本月的六日天气咋样	0:5:日期时间
+buy_flight_ticket	帮我买去北京的机票	4:2:目的地
+buy_ticket	帮我买去蚌埠的票	4:2:目的地
+buy_flight_ticket	帮我买从浦东机场出发的票	4:4:出发地
+buy_ticket	我要买去北京市的票	4:3:目的地
+buy_train_ticket	我想买高铁票	
+weather_general	南平市政和县星溪乡天气	0:9:地点
+weather_condition	沈阳沈河有没有可能打雷	0:4:地点|10:1:天气现象
+buy_flight_ticket	帮我买飞往虹桥机场的票	5:4:目的地
+weather_condition	七月的25号有没有可能下冰雹呀	0:6:日期时间|12:2:天气现象
+weather_condition	昌华街道有没有雨	0:4:地点|7:1:天气现象
+buy_flight_ticket	帮我买飞往杭州的机票	5:2:目的地
+weather_general	关岭布依族苗族自治板贵的天气如何	0:11:地点
+inform	从浦东机场起飞	1:4:出发地
+weather_general	这个月二十五日福建省漳浦县天气	0:7:日期时间|7:6:地点
+weather_condition	魏家峁乡大后天有霾吗	0:4:地点|4:3:日期时间|8:1:天气现象
+weather_general	今日龙圩区龙圩镇的天气	0:2:日期时间|2:6:地点
+weather_condition	这月5日有雨么？	0:4:日期时间|5:1:天气现象
+weather_condition	邻水城南有没有霾呢	0:4:地点|7:1:天气现象
+weather_general	阳新县浮屠镇天气	0:6:地点
+weather_general	给我报天气咋样	
+buy_flight_ticket	帮我买飞往浦东国际机场的票	5:6:目的地
+buy_flight_ticket	我想要坐飞机飞往浦东国际机场	8:6:目的地
+buy_ticket	我想买今年的一月二十三日的票	3:9:日期时间
+weather_condition	宁海街道有没有可能下暴雨呢	0:4:地点|11:1:天气现象
+buy_ticket	帮我买2号的票	3:2:日期时间
+inform	去上海火车站	1:5:目的地
+buy_train_ticket	我要买这阵子的高铁票	3:3:日期时间
+buy_ticket	我要买去北京的票	4:2:目的地
+weather_condition	这阵子有没有可能下冰雹啊?	0:3:日期时间|9:2:天气现象
+inform	到上海南站	1:4:目的地
+buy_ticket	我要买这阵子的票	3:3:日期时间
+weather_general	茂名市高州市祥山镇天气如何	0:9:地点
+buy_ticket	我想买去蚌埠的票	4:2:目的地
+buy_ticket	帮我买周1的票	3:2:日期时间
+inform	白云机场	0:4:地点
+weather_condition	灯塔有没有冰雹	0:2:地点|5:2:天气现象
+weather_condition	约罗是不是会下大雨	0:2:地点|8:1:天气现象
+inform	到白云机场落地	1:4:目的地
+buy_train_ticket	我要乘去杭州东的车	4:3:目的地
+buy_train_ticket	我要买这个月的17号的高铁票	3:7:日期时间
+buy_train_ticket	我想要乘大后年七月的二十四号的高铁	4:10:日期时间
+inform	成都	0:2:地点
+buy_train_ticket	我想买这阵子的火车票	3:3:日期时间
+deny	不是的	
+weather_condition	最近有没有雾霾	0:2:日期时间|5:2:天气现象
+weather_general	报一下天气	
+inform	周五的	0:2:日期时间
+inform	飞往上海浦东机场	2:6:目的地
+buy_flight_ticket	我想买去浦东国际机场的机票	4:6:目的地
+buy_ticket	我要买七月的12日的票	3:6:日期时间
+inform	上月二号	0:4:日期时间
+weather_condition	这阵子有没有冰雹	0:3:日期时间|6:2:天气现象
+buy_flight_ticket	帮我买从上海浦东机场起飞的飞机票	4:6:出发地
+weather_condition	上饶市婺源县沱川乡有没有冰雹	0:9:地点|12:2:天气现象
+buy_train_ticket	我想坐高铁去盐城	6:2:目的地
+buy_ticket	帮我买去上海市的票	4:3:目的地
+weather_general	星期日甘肃省定西市临洮县衙下集镇天气	0:3:日期时间|3:13:地点
+buy_ticket	帮我买去石家庄市的票	4:4:目的地
+buy_train_ticket	我想坐去天津的车	4:2:目的地
+weather_condition	吴江有没有霾	0:2:地点|5:1:天气现象
+inform	去年八月25日	0:7:日期时间
+weather_condition	达卡会打雷么	0:2:地点|4:1:天气现象
+buy_train_ticket	我想坐这几天的高铁	3:3:日期时间
+buy_ticket	我想买去重庆的票	4:2:目的地
+weather_condition	新丰马头是不是会下冰雹	0:4:地点|9:2:天气现象
+buy_flight_ticket	帮我买二零三九年3月1号的机票	3:9:日期时间
+buy_train_ticket	我要坐去杭州站的高铁	4:3:目的地
+weather_condition	5月六号有没有雨	0:4:日期时间|7:1:天气现象
+inform	我从杭州东出发	2:3:出发地
+buy_train_ticket	我要坐去杭州东的高铁	4:3:目的地
+buy_train_ticket	我要坐去北京东站的高铁	4:4:目的地
+weather_condition	最近廊坊市大城县留各庄镇会打雷么	0:2:日期时间|2:10:地点|14:1:天气现象
+weather_condition	郑州市中牟县三官庙乡有没有冰雹	0:10:地点|13:2:天气现象
+weather_general	清塬镇天气	0:3:地点
+weather_condition	南平市邵武市肖家坊镇二〇三一年十月11日有没有可能下雨	0:10:地点|10:10:日期时间|26:1:天气现象
+buy_flight_ticket	我要买飞往白云机场的票	5:4:目的地
+weather_condition	重庆市秀山土家族苗族自治县隘口镇有没有可能下雨呢	0:16:地点|22:1:天气现象
+weather_condition	南关区民康街道有没有霾呀	0:7:地点|10:1:天气现象
+inform	到天津	1:2:目的地
+weather_general	最近天气如何	0:2:日期时间
+buy_train_ticket	我想坐这两天的高铁	3:3:日期时间
+weather_general	周1四川省资阳市安岳县协和乡天气	0:2:日期时间|2:12:地点
+inform	到浦东国际机场落地	1:6:目的地
+weather_condition	国庆节广西壮族自治区百色市隆林各族自治县者浪乡有没有可能下雨	0:3:日期时间|3:20:地点|29:1:天气现象
+buy_train_ticket	我要买去蚌埠市的车票	4:3:目的地
+weather_condition	木镇镇会打雷么？	0:3:地点|5:1:天气现象
+weather_condition	山东省临沂市兰陵县层山镇会不会下暴雨	0:12:地点|17:1:天气现象
+weather_condition	武邑镇有没有可能下冰雹	0:3:地点|9:2:天气现象
+weather_condition	都昌有没有雨	0:2:地点|5:1:天气现象
+weather_general	夯沙乡天气咋样	0:3:地点
+inform	去年五月十九号	0:7:日期时间
+buy_flight_ticket	帮我买飞往浦东机场的机票	5:4:目的地
+weather_condition	西畴法斗有没有可能下小雨	0:4:地点|11:1:天气现象
+weather_condition	2068年1月四号有霾吗	0:9:日期时间|10:1:天气现象
+inform	我到大兴机场	2:4:目的地
+weather_general	山东省烟台市长岛县南隍城乡的大后天天气	0:13:地点|14:3:日期时间
+buy_ticket	帮我买去北京的票	4:2:目的地
+weather_condition	镇宁布依族苗族自治沙子有冰雹么	0:11:地点|12:2:天气现象
+buy_ticket	我想买去西宁的票	4:2:目的地
+weather_general	28号安阳县磊口乡天气怎么样	0:3:日期时间|3:6:地点
+weather_general	武汉市汉阳区江汉二桥街道天气	0:12:地点
+weather_condition	周6有冰雹吗	0:2:日期时间|3:2:天气现象
+weather_general	二十七号的天气	0:4:日期时间
+buy_ticket	帮我买去盐城的票	4:2:目的地
+inform	元旦节的	0:3:日期时间
+buy_train_ticket	我想坐去北京东站的车	4:4:目的地
+weather_general	楚雄彝族自治州禄丰县土官镇天气如何	0:13:地点
+buy_flight_ticket	我想坐飞机飞往蚌埠	7:2:目的地
+weather_condition	浙江省丽水市景宁畲族自治县大顺乡有霾么	0:16:地点|17:1:天气现象
+buy_flight_ticket	我要买去虹桥机场的机票	4:4:目的地
+weather_general	这个月21号天气	0:6:日期时间
+inform	从天津出发	1:2:出发地
+buy_flight_ticket	帮我买从石家庄出发的机票	4:3:出发地
+buy_flight_ticket	我想买去上海浦东机场的机票	4:6:目的地
+buy_ticket	我想要买大后年的五月十三日的票	4:9:日期时间
+buy_flight_ticket	帮我买从首都国际机场起飞的机票	4:6:出发地
+buy_flight_ticket	帮我买从上海浦东机场起飞的票	4:6:出发地
+buy_flight_ticket	我想乘明年9月二十五号的飞机	3:8:日期时间
+inform	去杭州东	1:3:目的地
+buy_flight_ticket	帮我买这个月21号的机票	3:6:日期时间
+inform	我去首都国际机场	2:6:目的地
+buy_flight_ticket	帮我买后天的机票	3:2:日期时间
+weather_condition	星期五江西省赣州市寻乌县有没有可能下冰雹	0:3:日期时间|3:9:地点|18:2:天气现象
+buy_ticket	帮我买3月四日的票	3:4:日期时间
+weather_general	浙江省杭州市下城区朝晖街道最近几天天气	0:13:地点|13:4:日期时间
+buy_train_ticket	我要买这两天的火车票	3:3:日期时间
+inform	去杭州站	1:3:目的地
+buy_ticket	帮我买这个月的4日的票	3:6:日期时间
+buy_train_ticket	帮我买去杭州东的火车票	4:3:目的地
+buy_ticket	我想买明年五月10号的票	3:7:日期时间
+weather_general	河北省唐山市丰润区岩口乡天气如何	0:12:地点
+weather_condition	11月4号有没有冰雹呢。	0:5:日期时间|8:2:天气现象
+weather_general	周6的天气如何	0:2:日期时间
+buy_ticket	帮我买一九六七年八月的10号的票	3:11:日期时间
+weather_condition	崔家湾镇周5有雨吗?	0:4:地点|4:2:日期时间|7:1:天气现象
+weather_condition	廊坊市永清县北辛溜乡有冰雹么	0:10:地点|11:2:天气现象
+inform	从杭州站出发	1:3:出发地
+inform	上海南站	0:4:地点
+buy_flight_ticket	我想要乘飞机去重庆	7:2:目的地
+weather_general	依利里狂欢节的天气	0:3:地点|3:3:日期时间
+buy_train_ticket	帮我买这阵子的火车票	3:3:日期时间
+weather_general	二零四零年六月的六日天气怎么样	0:10:日期时间
+weather_general	这阵子宁波市余姚市四明山镇天气	0:3:日期时间|3:10:地点
+weather_general	明年的4月20号衢州市开化县音坑乡的天气如何	0:8:日期时间|8:9:地点
+buy_train_ticket	我想坐去北京市的高铁	4:3:目的地
+weather_condition	最近会下冰雹么	0:2:日期时间|4:2:天气现象
+weather_general	下个月的二十四日天气咋样	0:8:日期时间
+weather_general	1927年二月五号天气如何	0:9:日期时间
+weather_general	19号天气如何	0:3:日期时间
+buy_train_ticket	我要坐这月的5号的高铁	3:5:日期时间
+weather_condition	长海石城下个月19号有没有霾	0:4:地点|4:6:日期时间|13:1:天气现象
+inform	一九二二年的10月7日	0:11:日期时间
+weather_condition	鸡西市密山市裴德镇有雨么	0:9:地点|10:1:天气现象
+weather_general	新平彝族傣族自治建兴的天气如何	0:10:地点
+buy_flight_ticket	我要买从大兴机场出发的票	4:4:出发地
+inform	在虹桥机场落地	1:4:目的地
+weather_condition	这阵子有冰雹么?	0:3:日期时间|4:2:天气现象
+buy_ticket	帮我买去广州市的票	4:3:目的地
+weather_general	湖北省孝感市汉川市脉旺镇天气怎么样	0:12:地点
+buy_train_ticket	我要买2017年7月二十八号的高铁票	3:11:日期时间
+buy_train_ticket	我想乘这两天的火车	3:3:日期时间
+buy_train_ticket	帮我买5月的三日的高铁票	3:5:日期时间
+weather_condition	玉林市博白县英桥镇有霾么	0:9:地点|10:1:天气现象
+buy_flight_ticket	我想买飞往大兴机场的票	5:4:目的地
+weather_general	本月三日溪东乡的天气	0:4:日期时间|4:3:地点
+buy_train_ticket	我要买去上海火车站的车票	4:5:目的地
+inform	周日的	0:2:日期时间
+weather_condition	11月的十三日有没有雨	0:7:日期时间|10:1:天气现象
+weather_condition	周口市扶沟县有没有冰雹呢	0:6:地点|9:2:天气现象
+buy_ticket	我想买后年的7月七日的票	3:7:日期时间
+buy_flight_ticket	我想买从白云机场起飞的机票	4:4:出发地
+inform	我要到重庆	3:2:目的地
+buy_flight_ticket	我想买去虹桥机场的机票	4:4:目的地
+weather_general	查天气如何	
+weather_general	星期四的吉林省白城市洮南市安定镇天气	0:3:日期时间|4:12:地点
+inform	12月30日的	0:6:日期时间
+weather_condition	白家乡这两天有冰雹吗	0:3:地点|3:3:日期时间|7:2:天气现象
+buy_ticket	我想要买去蚌埠市的票	5:3:目的地
+buy_flight_ticket	帮我买从北京出发的飞机票	4:2:出发地
+buy_train_ticket	我想乘周五的火车	3:2:日期时间
+inform	清明	0:2:日期时间
+inform	明日	0:2:日期时间
+weather_general	报天气	
+buy_train_ticket	我要坐火车去盐城	6:2:目的地
+buy_train_ticket	我要坐下月的十七号的火车	3:6:日期时间
+weather_condition	二月28号河北省滦南县的是不是会打雷呢	0:5:日期时间|5:6:地点|17:1:天气现象
+buy_flight_ticket	帮我买从北京市出发的飞机票	4:3:出发地
+weather_general	周3天气	0:2:日期时间
+buy_flight_ticket	我想乘明年4月八日的飞机	3:6:日期时间
+buy_train_ticket	我想坐最近的火车	3:2:日期时间
+buy_train_ticket	我要坐今年五月的二十二日的高铁	3:9:日期时间
+weather_condition	武威市天祝藏族自治县抓喜秀龙乡有没有可能打雷	0:15:地点|21:1:天气现象
+buy_train_ticket	我想乘去虹桥火车站的火车	4:5:目的地
+buy_train_ticket	我要乘2096年十一月30日的火车	3:11:日期时间
+buy_train_ticket	我要坐去杭州东的车	4:3:目的地
+buy_flight_ticket	我要乘飞机从白云机场起飞	6:4:出发地
+buy_flight_ticket	我要乘飞机去浦东国际机场	6:6:目的地
+inform	从上海南站出发	1:4:出发地
+buy_flight_ticket	我想坐周三的飞机	3:2:日期时间
+inform	我去天津	2:2:目的地
+buy_train_ticket	我想乘这两天的高铁	3:3:日期时间
+weather_general	拉西镇这两天天气	0:3:地点|3:3:日期时间
+weather_condition	最近有没有冰雹	0:2:日期时间|5:2:天气现象
+buy_ticket	我想买去天津市的票	4:3:目的地
+inform	从上海浦东机场出发	1:6:出发地
+inform	浦东机场	0:4:地点
+weather_condition	这月十五日会打雷吗	0:5:日期时间|7:1:天气现象
+buy_flight_ticket	帮我买从上海浦东机场出发的飞机票	4:6:出发地
+weather_condition	古沛镇有雨吗	0:3:地点|4:1:天气现象
+weather_general	周五天气	0:2:日期时间
+weather_condition	今年3月十号会下雨吗	0:6:日期时间|8:1:天气现象
+weather_general	麻烦播报一下天气怎么样	
+weather_general	吉林省松原市长岭县集体乡天气如何	0:12:地点
+buy_flight_ticket	我想要买从浦东机场起飞的机票	5:4:出发地
+weather_condition	安徽省安庆市迎江区宜城路街道这几天的会下冰雹吗	0:14:地点|14:3:日期时间|20:2:天气现象
+weather_general	1925年3月26号的天气	0:10:日期时间
+weather_general	四川省达州市达川区道让乡天气	0:12:地点
+buy_train_ticket	帮我买去徐州的车票	4:2:目的地
+buy_ticket	我要买三十一日的票	3:4:日期时间
+inform	虹桥机场	0:4:地点
+inform	明年八月12日的	0:7:日期时间
+weather_condition	开江靖安有没有雨	0:4:地点|7:1:天气现象
+weather_general	周陵街道天气如何	0:4:地点
+buy_flight_ticket	帮我买最近的飞机票	3:2:日期时间
+buy_flight_ticket	我想要买票,从大兴机场出发	7:4:出发地
+buy_flight_ticket	我想乘飞机飞往盐城	7:2:目的地
+buy_flight_ticket	我要乘今日的飞机	3:2:日期时间
+buy_flight_ticket	帮我买去大兴机场的票	4:4:目的地
+buy_train_ticket	我想要坐这两天的火车	4:3:日期时间
+buy_ticket	帮我买最近两天的票	3:4:日期时间
+weather_general	元宵平昌县岳家镇的天气如何	0:2:日期时间|2:6:地点
+buy_flight_ticket	帮我买飞往浦东机场的票	5:4:目的地
+buy_flight_ticket	我想买票,从上海浦东机场起飞	6:6:出发地
+buy_ticket	帮我买星期五的票	3:3:日期时间
+buy_flight_ticket	我要买从浦东机场出发的机票	4:4:出发地
+inform	杭州站	0:3:地点
+weather_condition	二零八六年7月十六日下埠集乡有没有可能下雨	0:10:日期时间|10:4:地点|20:1:天气现象
+inform	乌里扬诺夫斯克	0:7:地点
+buy_ticket	帮我买去上海的票	4:2:目的地
+inform	八号	0:2:日期时间
+buy_flight_ticket	我想乘周五的飞机	3:2:日期时间
+buy_flight_ticket	帮我买去大兴机场的机票	4:4:目的地
+weather_condition	河北省邢台市隆尧县千户营乡会不会下雨	0:13:地点|17:1:天气现象
+weather_general	偏坡布依族乡2024年1月22日天气如何	0:6:地点|6:10:日期时间
+buy_flight_ticket	我想买去浦东国际机场的票	4:6:目的地
+weather_condition	广东省深圳市南山区蛇口街道有没有冰雹	0:13:地点|16:2:天气现象
+weather_condition	大后年4月十八日会打雷么	0:8:日期时间|10:1:天气现象
+buy_ticket	帮我买去海口的票	4:2:目的地
+buy_ticket	帮我买今日的票	3:2:日期时间
+buy_ticket	我要买2065年五月5号的票	3:9:日期时间
+inform	飞往虹桥机场	2:4:目的地
+weather_general	3日的天气	0:2:日期时间
+weather_condition	四川省南充市阆中市望垭镇的九月十四日会打雷吗	0:12:地点|13:5:日期时间|20:1:天气现象
+buy_flight_ticket	我要买下个月9日的机票	3:5:日期时间
+weather_general	富民县散旦镇11日天气	0:6:地点|6:3:日期时间
+weather_general	这阵子天气	0:3:日期时间
+inform	从北京出发	1:2:出发地
+buy_flight_ticket	帮我买票,从首都国际机场出发	6:6:出发地
+buy_train_ticket	帮我买去贵阳市的车票	4:3:目的地
+buy_train_ticket	我要乘高铁去杭州站	6:3:目的地
+inform	到上海	1:2:目的地
+buy_flight_ticket	我要买飞往首都国际机场的票	5:6:目的地
+buy_flight_ticket	帮我买飞往大兴机场的机票	5:4:目的地
+weather_condition	2月十四号的卡布雷拉有雨么	0:5:日期时间|6:4:地点|11:1:天气现象
+inform	从蚌埠出发	1:2:出发地
+weather_general	黔南布依族苗族自治州独山县麻万镇明年的10月28号天气	0:16:地点|16:9:日期时间
+inform	拉萨	0:2:地点
+weather_condition	维特洛克有没有雨	0:4:地点|7:1:天气现象
+inform	到虹桥火车站	1:5:目的地
+weather_general	河北省邢台市南宫市北胡街道十一月1日的天气如何	0:13:地点|13:5:日期时间
+buy_flight_ticket	我想坐这周的周6的飞机	3:5:日期时间
+weather_condition	二〇六八年六月29日将军乡的会不会打雷	0:10:日期时间|10:3:地点|18:1:天气现象
+buy_train_ticket	我想坐去上海火车站的车	4:5:目的地
+weather_condition	二月二十八号有没有雨	0:6:日期时间|9:1:天气现象
+buy_flight_ticket	我想乘明天的飞机	3:2:日期时间
+inform	去徐州市	1:3:目的地
+weather_condition	2090年10月21日莘县大张家镇是不是会下冰雹	0:11:日期时间|11:6:地点|22:2:天气现象
+weather_condition	乐清市淡溪镇会下雨么？	0:6:地点|8:1:天气现象
+weather_condition	安徽省蚌埠市五河县城关镇29日有没有冰雹呢	0:12:地点|12:3:日期时间|18:2:天气现象
+weather_general	河南省周口市沈丘县新安集镇天气如何	0:13:地点
+inform	12月22号	0:6:日期时间
+weather_general	明安镇天气	0:3:地点
+weather_general	播报天气如何	
+weather_condition	甘肃省临夏回族自治州东乡族自治县高山乡星期4是不是会下冰雹	0:19:地点|19:3:日期时间|27:2:天气现象

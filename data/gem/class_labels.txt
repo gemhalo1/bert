@@ -1,0 +1,9 @@
+affirm
+buy_flight_ticket
+buy_ticket
+buy_train_ticket
+cancel
+deny
+inform
+weather_condition
+weather_general

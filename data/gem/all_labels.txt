@@ -1,0 +1,1 @@
+["affirm", "buy_flight_ticket", "buy_ticket", "buy_train_ticket", "cancel", "deny", "inform", "weather_condition", "weather_general", "O", "B_出发地", "I_出发地", "B_地点", "I_地点", "B_天气现象", "I_天气现象", "B_日期时间", "I_日期时间", "B_目的地", "I_目的地"]

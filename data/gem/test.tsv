@@ -1,0 +1,500 @@
+affirm	可以	
+affirm	可以的	
+affirm	好的,就这样	
+affirm	好的,就这样吧	
+affirm	就这样	
+affirm	就这样吧	
+affirm	我确定	
+affirm	是的	
+affirm	确定	
+affirm	确认	
+affirm	行	
+buy_flight_ticket	帮我买1月15号的机票	3:5:日期时间
+buy_flight_ticket	帮我买一九零二年三月的23日的飞机票	3:11:日期时间
+buy_flight_ticket	帮我买下周四的机票	3:3:日期时间
+buy_flight_ticket	帮我买今年八月三日的机票	3:6:日期时间
+buy_flight_ticket	帮我买从上海浦东机场出发的票	4:6:出发地
+buy_flight_ticket	帮我买从大兴机场出发的票	4:4:出发地
+buy_flight_ticket	帮我买从大兴机场出发的飞机票	4:4:出发地
+buy_flight_ticket	帮我买从浦东国际机场出发的机票	4:6:出发地
+buy_flight_ticket	帮我买从浦东国际机场起飞的机票	4:6:出发地
+buy_flight_ticket	帮我买从首都国际机场起飞的票	4:6:出发地
+buy_flight_ticket	帮我买去乌鲁木齐的机票	4:4:目的地
+buy_flight_ticket	帮我买去虹桥机场的票	4:4:目的地
+buy_flight_ticket	帮我买去首都国际机场的机票	4:6:目的地
+buy_flight_ticket	帮我买大后天的飞机票	3:3:日期时间
+buy_flight_ticket	帮我买明天的机票	3:2:日期时间
+buy_flight_ticket	帮我买明年10月7号的机票	3:7:日期时间
+buy_flight_ticket	帮我买机票	
+buy_flight_ticket	帮我买这两天的机票	3:3:日期时间
+buy_flight_ticket	帮我买这月22日的飞机票	3:5:日期时间
+buy_flight_ticket	帮我买飞往大兴机场的票	5:4:目的地
+buy_flight_ticket	我想乘周3的飞机	3:2:日期时间
+buy_flight_ticket	我想乘国庆节的飞机	3:3:日期时间
+buy_flight_ticket	我想乘大后天的飞机	3:3:日期时间
+buy_flight_ticket	我想乘飞机从周口起飞	6:2:出发地
+buy_flight_ticket	我想乘飞机从浦东国际机场出发	6:6:出发地
+buy_flight_ticket	我想乘飞机从首都国际机场起飞	6:6:出发地
+buy_flight_ticket	我想乘飞机去虹桥机场	6:4:目的地
+buy_flight_ticket	我想买九号的飞机票	3:2:日期时间
+buy_flight_ticket	我想买从浦东机场出发的飞机票	4:4:出发地
+buy_flight_ticket	我想买从深圳出发的机票	4:2:出发地
+buy_flight_ticket	我想买从首都国际机场起飞的机票	4:6:出发地
+buy_flight_ticket	我想买去上海浦东机场的票	4:6:目的地
+buy_flight_ticket	我想买去大兴机场的票	4:4:目的地
+buy_flight_ticket	我想买去浦东国际机场的票	4:6:目的地
+buy_flight_ticket	我想买最近的飞机票	3:2:日期时间
+buy_flight_ticket	我想买机票	
+buy_flight_ticket	我想买票,从大兴机场出发	6:4:出发地
+buy_flight_ticket	我想买票,从浦东国际机场起飞	6:6:出发地
+buy_flight_ticket	我想买飞往浦东国际机场的票	5:6:目的地
+buy_flight_ticket	我想买飞往浦东国际机场的飞机票	5:6:目的地
+buy_flight_ticket	我想买飞往白云机场的票	5:4:目的地
+buy_flight_ticket	我想买飞机票	
+buy_flight_ticket	我想坐5号的飞机	3:2:日期时间
+buy_flight_ticket	我想坐这阵子的飞机	3:3:日期时间
+buy_flight_ticket	我想要乘1987年的一月23号的飞机	4:11:日期时间
+buy_flight_ticket	我想要乘周5的飞机	4:2:日期时间
+buy_flight_ticket	我想要乘飞机从合肥起飞	7:2:出发地
+buy_flight_ticket	我想要乘飞机去白云机场	7:4:目的地
+buy_flight_ticket	我想要乘飞机去重庆	7:2:目的地
+buy_flight_ticket	我想要买后年8月十六日的机票	4:7:日期时间
+buy_flight_ticket	我想要买机票	
+buy_flight_ticket	我想要买票,从虹桥机场出发	7:4:出发地
+buy_flight_ticket	我要乘今年11月22日的飞机	3:8:日期时间
+buy_flight_ticket	我要乘飞机去徐州市	6:3:目的地
+buy_flight_ticket	我要买从浦东机场起飞的票	4:4:出发地
+buy_flight_ticket	我要买从虹桥机场出发的票	4:4:出发地
+buy_flight_ticket	我要买十二月23号的机票	3:6:日期时间
+buy_flight_ticket	我要买十二月十八号的机票	3:6:日期时间
+buy_flight_ticket	我要买去浦东国际机场的票	4:6:目的地
+buy_flight_ticket	我要买去首都国际机场的票	4:6:目的地
+buy_flight_ticket	我要买机票	
+buy_flight_ticket	我要买票,从白云机场起飞	6:4:出发地
+buy_flight_ticket	我要买这月的十一日的飞机票	3:6:日期时间
+buy_flight_ticket	我要买飞往大兴机场的飞机票	5:4:目的地
+buy_flight_ticket	我要买飞机票	
+buy_flight_ticket	我要坐一九三六年3月的五号的飞机	3:10:日期时间
+buy_flight_ticket	我要坐二零三七年7月的八号的飞机	3:10:日期时间
+buy_flight_ticket	我要坐周六的飞机	3:2:日期时间
+buy_flight_ticket	我要坐最近两天的飞机	3:4:日期时间
+buy_flight_ticket	我要坐飞机从上海浦东机场起飞	6:6:出发地
+buy_flight_ticket	我要坐飞机从台北出发	6:2:出发地
+buy_flight_ticket	我要坐飞机从浦东机场出发	6:4:出发地
+buy_flight_ticket	我要坐飞机从虹桥机场出发	6:4:出发地
+buy_flight_ticket	我要坐飞机去盐城市	6:3:目的地
+buy_flight_ticket	我要坐飞机飞往虹桥机场	7:4:目的地
+buy_ticket	帮我买1901年2月1号的票	3:9:日期时间
+buy_ticket	帮我买1976年8月12号的票	3:10:日期时间
+buy_ticket	帮我买1990年10月二十五号的票	3:12:日期时间
+buy_ticket	帮我买2030年11月13日的票	3:11:日期时间
+buy_ticket	帮我买下个月十四日的票	3:6:日期时间
+buy_ticket	帮我买下周6的票	3:3:日期时间
+buy_ticket	帮我买去上海的票	4:2:目的地
+buy_ticket	帮我买去北京的票	4:2:目的地
+buy_ticket	帮我买去南京市的票	4:3:目的地
+buy_ticket	帮我买去南宁的票	4:2:目的地
+buy_ticket	帮我买去周口的票	4:2:目的地
+buy_ticket	帮我买去徐州的票	4:2:目的地
+buy_ticket	帮我买去杭州的票	4:2:目的地
+buy_ticket	帮我买去济南的票	4:2:目的地
+buy_ticket	帮我买去盐城的票	4:2:目的地
+buy_ticket	帮我买去石家庄的票	4:3:目的地
+buy_ticket	帮我买去蚌埠的票	4:2:目的地
+buy_ticket	帮我买去西宁的票	4:2:目的地
+buy_ticket	帮我买去郑州的票	4:2:目的地
+buy_ticket	帮我买去重庆的票	4:2:目的地
+buy_ticket	帮我买去银川的票	4:2:目的地
+buy_ticket	帮我买星期一的票	3:3:日期时间
+buy_ticket	帮我买最近几天的票	3:4:日期时间
+buy_ticket	帮我买清明的票	3:2:日期时间
+buy_ticket	帮我买狂欢节的票	3:3:日期时间
+buy_ticket	帮我买票	
+buy_ticket	帮我买这几天的票	3:3:日期时间
+buy_ticket	帮我买这阵子的票	3:3:日期时间
+buy_ticket	我想买11月五号的票	3:5:日期时间
+buy_ticket	我想买一九一六年的二月三号的票	3:10:日期时间
+buy_ticket	我想买去上海的票	4:2:目的地
+buy_ticket	我想买去北京的票	4:2:目的地
+buy_ticket	我想买去广州市的票	4:3:目的地
+buy_ticket	我想买去武汉市的票	4:3:目的地
+buy_ticket	我想买去深圳的票	4:2:目的地
+buy_ticket	我想买去石家庄的票	4:3:目的地
+buy_ticket	我想买去西宁市的票	4:3:目的地
+buy_ticket	我想买去郑州的票	4:2:目的地
+buy_ticket	我想买去重庆市的票	4:3:目的地
+buy_ticket	我想买去重庆的票	4:2:目的地
+buy_ticket	我想买明年6月六日的票	3:6:日期时间
+buy_ticket	我想买狂欢节的票	3:3:日期时间
+buy_ticket	我想买票	
+buy_ticket	我想买这月的29号的票	3:6:日期时间
+buy_ticket	我想买这阵子的票	3:3:日期时间
+buy_ticket	我想要买2042年十一月的12日的票	4:12:日期时间
+buy_ticket	我想要买去重庆的票	5:2:目的地
+buy_ticket	我想要买这阵子的票	4:3:日期时间
+buy_ticket	我要买3月6日的票	3:4:日期时间
+buy_ticket	我要买一九四四年八月14号的票	3:10:日期时间
+buy_ticket	我要买去北京的票	4:2:目的地
+buy_ticket	我要买去南宁的票	4:2:目的地
+buy_ticket	我要买去广州的票	4:2:目的地
+buy_ticket	我要买去徐州的票	4:2:目的地
+buy_ticket	我要买去海口的票	4:2:目的地
+buy_ticket	我要买去深圳市的票	4:3:目的地
+buy_ticket	我要买去盐城市的票	4:3:目的地
+buy_ticket	我要买去重庆的票	4:2:目的地
+buy_ticket	我要买周2的票	3:2:日期时间
+buy_ticket	我要买周5的票	3:2:日期时间
+buy_ticket	我要买明年八月18日的票	3:7:日期时间
+buy_ticket	我要买票	
+buy_ticket	我要买这个月九日的票	3:5:日期时间
+buy_ticket	我要买这月三十一日的票	3:6:日期时间
+buy_train_ticket	帮我买1938年10月17日的火车票	3:11:日期时间
+buy_train_ticket	帮我买8号的火车票	3:2:日期时间
+buy_train_ticket	帮我买一九六二年的4月10号的火车票	3:11:日期时间
+buy_train_ticket	帮我买八月15号的火车票	3:5:日期时间
+buy_train_ticket	帮我买去上海南站的车票	4:4:目的地
+buy_train_ticket	帮我买去天津的高铁票	4:2:目的地
+buy_train_ticket	帮我买去杭州东的车票	4:3:目的地
+buy_train_ticket	帮我买去杭州东的高铁票	4:3:目的地
+buy_train_ticket	帮我买去虹桥火车站的高铁票	4:5:目的地
+buy_train_ticket	帮我买大后年11月十二日的火车票	3:9:日期时间
+buy_train_ticket	帮我买火车票	
+buy_train_ticket	帮我买这几天的火车票	3:3:日期时间
+buy_train_ticket	帮我买高铁票	
+buy_train_ticket	我想乘1月二十六号的火车	3:6:日期时间
+buy_train_ticket	我想乘下月二十八日的高铁	3:6:日期时间
+buy_train_ticket	我想乘去上海火车站的高铁	4:5:目的地
+buy_train_ticket	我想乘去杭州东的车	4:3:目的地
+buy_train_ticket	我想乘车去周口	5:2:目的地
+buy_train_ticket	我想乘这个星期六的高铁	3:5:日期时间
+buy_train_ticket	我想乘这个月30号的高铁	3:6:日期时间
+buy_train_ticket	我想乘这阵子的火车	3:3:日期时间
+buy_train_ticket	我想乘高铁去杭州站	6:3:目的地
+buy_train_ticket	我想乘高铁去蚌埠	6:2:目的地
+buy_train_ticket	我想买一月十七号的火车票	3:5:日期时间
+buy_train_ticket	我想买去杭州东的车票	4:3:目的地
+buy_train_ticket	我想买去杭州站的车票	4:3:目的地
+buy_train_ticket	我想买去虹桥火车站的高铁票	4:5:目的地
+buy_train_ticket	我想买火车票	
+buy_train_ticket	我想买这月九号的火车票	3:4:日期时间
+buy_train_ticket	我想买高铁票	
+buy_train_ticket	我想坐一九八四年九月三十号的火车	3:10:日期时间
+buy_train_ticket	我想坐去上海火车站的车	4:5:目的地
+buy_train_ticket	我想坐去周口的高铁	4:2:目的地
+buy_train_ticket	我想坐这两天的高铁	3:3:日期时间
+buy_train_ticket	我想坐这月八日的高铁	3:4:日期时间
+buy_train_ticket	我想要乘大后年四月9日的火车	4:7:日期时间
+buy_train_ticket	我想要买去盐城的高铁票	5:2:目的地
+buy_train_ticket	我想要买最近两天的火车票	4:4:日期时间
+buy_train_ticket	我想要买最近的火车票	4:2:日期时间
+buy_train_ticket	我想要买火车票	
+buy_train_ticket	我想要买这阵子的火车票	4:3:日期时间
+buy_train_ticket	我想要坐下个月20日的高铁	4:6:日期时间
+buy_train_ticket	我想要坐去杭州东的高铁	5:3:目的地
+buy_train_ticket	我要乘11日的高铁	3:3:日期时间
+buy_train_ticket	我要乘7月四号的高铁	3:4:日期时间
+buy_train_ticket	我要乘去北京东站的高铁	4:4:目的地
+buy_train_ticket	我要乘去合肥的高铁	4:2:目的地
+buy_train_ticket	我要乘去杭州站的车	4:3:目的地
+buy_train_ticket	我要乘去蚌埠的车	4:2:目的地
+buy_train_ticket	我要乘明年10月11日的高铁	3:8:日期时间
+buy_train_ticket	我要乘狂欢节的火车	3:3:日期时间
+buy_train_ticket	我要乘车去天津	5:2:目的地
+buy_train_ticket	我要买下月31日的高铁票	3:5:日期时间
+buy_train_ticket	我要买去上海南站的高铁票	4:4:目的地
+buy_train_ticket	我要买去周口市的车票	4:3:目的地
+buy_train_ticket	我要买火车票	
+buy_train_ticket	我要买这月十二号的火车票	3:5:日期时间
+buy_train_ticket	我要买高铁票	
+buy_train_ticket	我要坐2079年十二月十五日的火车	3:11:日期时间
+buy_train_ticket	我要坐去兰州的车	4:2:目的地
+buy_train_ticket	我要坐去济南的车	4:2:目的地
+buy_train_ticket	我要坐后年10月五号的火车	3:7:日期时间
+buy_train_ticket	我要坐火车去天津	6:2:目的地
+buy_train_ticket	我要坐车去上海南站	5:4:目的地
+buy_train_ticket	我要坐车去北京东站	5:4:目的地
+buy_train_ticket	我要坐这阵子的高铁	3:3:日期时间
+buy_train_ticket	我要坐高铁去上海南站	6:4:目的地
+buy_train_ticket	我要坐高铁去太原	6:2:目的地
+buy_train_ticket	我要坐高铁去广州	6:2:目的地
+buy_train_ticket	我要坐高铁去杭州站	6:3:目的地
+cancel	取消	
+cancel	算了吧	
+deny	不可以	
+deny	不同意	
+deny	不对	
+deny	不是	
+deny	不是的	
+deny	不行	
+deny	不要	
+deny	不要这样	
+deny	反对	
+deny	我不同意	
+deny	我反对	
+inform	4月十一号	0:5:日期时间
+inform	一九八九年的10月二十六日	0:13:日期时间
+inform	上海南站	0:4:地点
+inform	上海浦东机场	0:6:地点
+inform	上海火车站	0:5:地点
+inform	下个月28号	0:6:日期时间
+inform	下个月二十三日的	0:7:日期时间
+inform	下个月的十二日	0:7:日期时间
+inform	二零二三年六月二十二日	0:11:日期时间
+inform	从上海出发	1:2:出发地
+inform	从上海南站出发	1:4:出发地
+inform	从上海市出发	1:3:出发地
+inform	从徐州出发	1:2:出发地
+inform	从杭州出发	1:2:出发地
+inform	从杭州站出发	1:3:出发地
+inform	从白云机场出发	1:4:出发地
+inform	从虹桥机场起飞	1:4:出发地
+inform	从虹桥火车站出发	1:5:出发地
+inform	从首都国际机场起飞	1:6:出发地
+inform	元宵	0:2:日期时间
+inform	八月的31号	0:6:日期时间
+inform	利国乡	0:3:地点
+inform	到上海南站	1:4:目的地
+inform	到乌鲁木齐	1:4:目的地
+inform	到南京	1:2:目的地
+inform	到合肥	1:2:目的地
+inform	到大兴机场降落	1:4:目的地
+inform	到杭州东	1:3:目的地
+inform	到杭州站	1:3:目的地
+inform	到白云机场	1:4:目的地
+inform	到虹桥机场降落	1:4:目的地
+inform	到首都国际机场	1:6:目的地
+inform	前年十一月25号	0:8:日期时间
+inform	北京市	0:3:地点
+inform	北京怀柔区长哨营	0:8:地点
+inform	十一号	0:3:日期时间
+inform	去大兴机场	1:4:目的地
+inform	去天津	1:2:目的地
+inform	去年4月24号	0:7:日期时间
+inform	去杭州东	1:3:目的地
+inform	去虹桥火车站	1:5:目的地
+inform	去蚌埠	1:2:目的地
+inform	吉安市吉水县乌江镇	0:9:地点
+inform	周一的	0:2:日期时间
+inform	在首都国际机场落地	1:6:目的地
+inform	大兴机场	0:4:地点
+inform	大后年8月八号	0:7:日期时间
+inform	大后日	0:3:日期时间
+inform	平泉榆树林子	0:6:地点
+inform	我从上海市出发	2:3:出发地
+inform	我从上海浦东机场起飞	2:6:出发地
+inform	我从北京东站出发	2:4:出发地
+inform	我从大兴机场起飞	2:4:出发地
+inform	我从浦东国际机场起飞	2:6:出发地
+inform	我从浦东机场出发	2:4:出发地
+inform	我从虹桥火车站出发	2:5:出发地
+inform	我从贵阳市出发	2:3:出发地
+inform	我到上海火车站	2:5:目的地
+inform	我到北京东站	2:4:目的地
+inform	我到周口	2:2:目的地
+inform	我去天津市	2:3:目的地
+inform	我去杭州站	2:3:目的地
+inform	我去虹桥火车站	2:5:目的地
+inform	明年五月的26号的	0:8:日期时间
+inform	明日	0:2:日期时间
+inform	星期四	0:3:日期时间
+inform	杭州东	0:3:地点
+inform	杭州站	0:3:地点
+inform	河间市瀛州镇	0:6:地点
+inform	狂欢节的	0:3:日期时间
+inform	白云机场	0:4:地点
+inform	蚌埠	0:2:地点
+inform	西安	0:2:地点
+inform	跃龙街道	0:4:地点
+inform	这月二十八日	0:6:日期时间
+inform	重庆市	0:3:地点
+inform	锦城	0:2:地点
+inform	飞往浦东机场	2:4:目的地
+inform	飞往白云机场	2:4:目的地
+inform	首都国际机场	0:6:地点
+weather_condition	10月6号有没有冰雹	0:5:日期时间|8:2:天气现象
+weather_condition	11月十日有没有霾啊	0:5:日期时间|8:1:天气现象
+weather_condition	1905年十月十四号会不会下雨	0:10:日期时间|14:1:天气现象
+weather_condition	1962年十一月十一日有没有可能下冰雹呀	0:11:日期时间|17:2:天气现象
+weather_condition	2027年1月二日有没有雨	0:9:日期时间|12:1:天气现象
+weather_condition	2041年12月21日有没有霾	0:11:日期时间|14:1:天气现象
+weather_condition	2058年的2月18日会下雨吗	0:11:日期时间|13:1:天气现象
+weather_condition	2070年六月十九日有没有霾	0:10:日期时间|13:1:天气现象
+weather_condition	24日会打雷么？	0:3:日期时间|5:1:天气现象
+weather_condition	一九七九年11月21号有没有可能下雨啊	0:11:日期时间|17:1:天气现象
+weather_condition	一号有雨么	0:2:日期时间|3:1:天气现象
+weather_condition	上官镇会下雨么	0:3:地点|5:1:天气现象
+weather_condition	下月的八日有没有霾	0:5:日期时间|8:1:天气现象
+weather_condition	东城东华门街道会下雨么?	0:7:地点|9:1:天气现象
+weather_condition	习水县土城镇的国庆会打雷吗	0:6:地点|7:2:日期时间|11:1:天气现象
+weather_condition	云南省迪庆藏族自治州香格里拉市尼西乡的下个月22日会下冰雹吗?	0:18:地点|19:6:日期时间|27:2:天气现象
+weather_condition	今年5月十六日有雾霾么	0:7:日期时间|8:2:天气现象
+weather_condition	今年七月10号有没有雨呢	0:7:日期时间|10:1:天气现象
+weather_condition	信楼乡6月19日会下雨吗	0:3:地点|3:5:日期时间|10:1:天气现象
+weather_condition	元旦会下暴雨吗?	0:2:日期时间|5:1:天气现象
+weather_condition	元旦会打雷么	0:2:日期时间|4:1:天气现象
+weather_condition	元旦节有雨吗	0:3:日期时间|4:1:天气现象
+weather_condition	勃利县松江街道这阵子的会不会下冰雹呢？	0:7:地点|7:3:日期时间|15:2:天气现象
+weather_condition	北峰乡2月13号有没有雨	0:3:地点|3:5:日期时间|11:1:天气现象
+weather_condition	南充市阆中市千佛镇有霾么	0:9:地点|10:1:天气现象
+weather_condition	南充市阆中市宝马镇这阵子有霾么	0:9:地点|9:3:日期时间|13:1:天气现象
+weather_condition	南峪镇会不会下冰雹	0:3:地点|7:2:天气现象
+weather_condition	南阳市新野县城关镇有雨么	0:9:地点|10:1:天气现象
+weather_condition	合水西华池4月19号有没有冰雹啊。	0:5:地点|5:5:日期时间|13:2:天气现象
+weather_condition	吉林市蛟河市黄松甸镇的下月二十日的有没有雨	0:10:地点|11:5:日期时间|20:1:天气现象
+weather_condition	后年12月七号是不是会下冰雹	0:7:日期时间|12:2:天气现象
+weather_condition	后年七月28日会下雨吗?	0:7:日期时间|9:1:天气现象
+weather_condition	后年九月二十五日有没有霾	0:8:日期时间|11:1:天气现象
+weather_condition	后年的4月28日有没有冰雹	0:8:日期时间|11:2:天气现象
+weather_condition	后日会下冰雹吗？	0:2:日期时间|4:2:天气现象
+weather_condition	周4孟海镇的会下雨么	0:2:日期时间|2:3:地点|8:1:天气现象
+weather_condition	喀什地区莎车县阿热勒乡2084年十二月三十一日有没有冰雹	0:11:地点|11:12:日期时间|26:2:天气现象
+weather_condition	四川省攀枝花市米易县麻陇彝族乡十八号有冰雹吗	0:15:地点|15:3:日期时间|19:2:天气现象
+weather_condition	团风贾庙这两天有没有可能打雷	0:4:地点|4:3:日期时间|13:1:天气现象
+weather_condition	大石桥汤池这阵子有霾吗	0:5:地点|5:3:日期时间|9:1:天气现象
+weather_condition	天宝镇明年一月九号会下冰雹么	0:3:地点|3:6:日期时间|11:2:天气现象
+weather_condition	太仆寺旗骆驼山镇大后天有没有雾霾	0:8:地点|8:3:日期时间|14:2:天气现象
+weather_condition	安吉梅溪有霾吗	0:4:地点|5:1:天气现象
+weather_condition	安国市本月二十六号有没有可能下大雨	0:3:地点|3:6:日期时间|16:1:天气现象
+weather_condition	安岳元坝会不会下冰雹	0:4:地点|8:2:天气现象
+weather_condition	安阳城街道会不会下冰雹	0:5:地点|9:2:天气现象
+weather_condition	山东威海市会下雨么？	0:5:地点|7:1:天气现象
+weather_condition	新山傈傈族乡有没有冰雹	0:6:地点|9:2:天气现象
+weather_condition	昌都市卡若区日通乡的星期天有没有霾	0:9:地点|10:3:日期时间|16:1:天气现象
+weather_condition	明年2月二十一日石哈河镇有冰雹吗	0:8:日期时间|8:4:地点|13:2:天气现象
+weather_condition	明年6月13号的山东省烟台市莱州市朱桥镇的有冰雹么	0:7:日期时间|8:12:地点|22:2:天气现象
+weather_condition	明年6月八号栖霞唐家泊的会不会打雷呀	0:6:日期时间|6:5:地点|16:1:天气现象
+weather_condition	明日有冰雹么	0:2:日期时间|3:2:天气现象
+weather_condition	星期6会下冰雹么?	0:3:日期时间|5:2:天气现象
+weather_condition	星期一四川省南充市南部县富利镇有没有冰雹	0:3:日期时间|3:12:地点|18:2:天气现象
+weather_condition	星期天会打雷吗	0:3:日期时间|5:1:天气现象
+weather_condition	星期天有霾么	0:3:日期时间|4:1:天气现象
+weather_condition	春节庆云县崔口镇有冰雹么?	0:2:日期时间|2:6:地点|9:2:天气现象
+weather_condition	春节是不是会下冰雹	0:2:日期时间|7:2:天气现象
+weather_condition	晋源区金胜镇后年的七月的五日是不是会打雷	0:6:地点|6:8:日期时间|19:1:天气现象
+weather_condition	最近会下雨么	0:2:日期时间|4:1:天气现象
+weather_condition	最近几天的仪征市新集镇有冰雹吗	0:4:日期时间|5:6:地点|12:2:天气现象
+weather_condition	最近广西壮族自治区南宁市青秀区伶俐镇有没有可能打雷	0:2:日期时间|2:16:地点|24:1:天气现象
+weather_condition	最近鹤壁市鹤山区鹤山街道有雨吗?	0:2:日期时间|2:10:地点|13:1:天气现象
+weather_condition	本月十二号有没有雨	0:5:日期时间|8:1:天气现象
+weather_condition	本月的19号有冰雹吗	0:6:日期时间|7:2:天气现象
+weather_condition	本月的2日的拣银岩街道的有没有霾	0:5:日期时间|6:5:地点|15:1:天气现象
+weather_condition	本月的十七日四川省达州市宣汉县清溪镇有没有霾	0:6:日期时间|6:12:地点|21:1:天气现象
+weather_condition	李家坪乡有冰雹吗?	0:4:地点|5:2:天气现象
+weather_condition	桐梓县容光镇是不是会打雷	0:6:地点|11:1:天气现象
+weather_condition	桑珠孜区年木乡有没有雨呀	0:7:地点|10:1:天气现象
+weather_condition	榆林镇有冰雹吗	0:3:地点|4:2:天气现象
+weather_condition	泗县丁湖镇有雨吗	0:5:地点|6:1:天气现象
+weather_condition	浙江省丽水市龙泉市八都镇这月23日的会下冰雹么?	0:12:地点|12:5:日期时间|20:2:天气现象
+weather_condition	浙江省台州市仙居县溪港乡有没有可能下冰雹	0:12:地点|18:2:天气现象
+weather_condition	淄博市会下雨么?	0:3:地点|5:1:天气现象
+weather_condition	湖北省麻城会打雷么	0:5:地点|7:1:天气现象
+weather_condition	湖南省长沙市开福区有没有可能下雨呀？	0:9:地点|15:1:天气现象
+weather_condition	湖州市南浔区二十五号会下暴雨么	0:6:地点|6:4:日期时间|13:1:天气现象
+weather_condition	牡丹江市穆棱市穆棱镇会打雷么	0:10:地点|12:1:天气现象
+weather_condition	环山城会打雷吗	0:3:地点|5:1:天气现象
+weather_condition	皮市街街道会不会下雨	0:5:地点|9:1:天气现象
+weather_condition	西藏自治区日喀则市昂仁县多白乡这个月4号是不是会下雨呢。	0:15:地点|15:5:日期时间|25:1:天气现象
+weather_condition	谋道镇有冰雹吗	0:3:地点|4:2:天气现象
+weather_condition	贵州省遵义市正安县新州镇会不会下雨	0:12:地点|16:1:天气现象
+weather_condition	越西县大瑞乡有雨么	0:6:地点|7:1:天气现象
+weather_condition	辽宁省沈阳市辽中区杨士岗镇下月的十一日有霾么?	0:13:地点|13:6:日期时间|20:1:天气现象
+weather_condition	迎泽区庙前街道有雨吗	0:7:地点|8:1:天气现象
+weather_condition	这两天的秀山土家族苗族自治膏田有霾么	0:3:日期时间|4:11:地点|16:1:天气现象
+weather_condition	这阵子会不会打雷	0:3:日期时间|7:1:天气现象
+weather_condition	这阵子会打雷么	0:3:日期时间|5:1:天气现象
+weather_condition	这阵子有没有雨啊	0:3:日期时间|6:1:天气现象
+weather_condition	闽清县省璜镇的大后年三月十九号有没有可能打雷	0:6:地点|7:8:日期时间|21:1:天气现象
+weather_condition	阿坝县求吉玛乡会不会下冰雹	0:7:地点|11:2:天气现象
+weather_condition	雨润镇这阵子有没有可能打雷	0:3:地点|3:3:日期时间|12:1:天气现象
+weather_condition	青坪乡有雨么	0:3:地点|4:1:天气现象
+weather_condition	青杠街道有没有冰雹	0:4:地点|7:2:天气现象
+weather_condition	青海省海西蒙古族藏族自治州都兰县巴隆乡有没有可能下冰雹呢	0:19:地点|25:2:天气现象
+weather_condition	高平寺庄下月13日有冰雹吗	0:4:地点|4:5:日期时间|10:2:天气现象
+weather_condition	黄南藏族自治州同仁县扎毛乡是不是会打雷	0:13:地点|18:1:天气现象
+weather_general	1939年二月7号天气怎么样	0:9:日期时间
+weather_general	7月10号天气	0:5:日期时间
+weather_general	一九八九年八月二十五日天气如何	0:11:日期时间
+weather_general	下个月13号陕西省渭南市大荔县沙底乡天气如何	0:6:日期时间|6:12:地点
+weather_general	下个月二十三号天津红桥的天气如何	0:7:日期时间|7:4:地点
+weather_general	下月22日四川省凉山彝族自治州西昌市阿七乡天气怎么样	0:5:日期时间|5:16:地点
+weather_general	东源县骆湖镇天气	0:6:地点
+weather_general	乐民镇天气	0:3:地点
+weather_general	二〇九四年7月七日的天气怎么样	0:9:日期时间
+weather_general	云南省昭通市昭阳区龙泉街道天气	0:13:地点
+weather_general	六号天气怎么样	0:2:日期时间
+weather_general	六月的11日安化县高明乡天气	0:6:日期时间|6:6:地点
+weather_general	六月的二十一日天气如何	0:7:日期时间
+weather_general	内蒙古自治区乌海市天气	0:9:地点
+weather_general	剑阁县迎水乡天气如何	0:6:地点
+weather_general	十一号天气如何	0:3:日期时间
+weather_general	厢根达来苏木的天气如何	0:6:地点
+weather_general	双鸭山市宝山区东保卫街道天气	0:12:地点
+weather_general	周四的天气咋样	0:2:日期时间
+weather_general	周天的天气	0:2:日期时间
+weather_general	哈尔滨市呼兰区孟家乡天气如何	0:10:地点
+weather_general	埃利奥特春节天气咋样	0:4:地点|4:2:日期时间
+weather_general	大后天天气	0:3:日期时间
+weather_general	大后年一月十号天气	0:7:日期时间
+weather_general	奉贤区柘林这两天天气咋样	0:5:地点|5:3:日期时间
+weather_general	宝安区福永镇十一月12日天气咋样	0:6:地点|6:6:日期时间
+weather_general	山西五台县今年四月12日天气	0:5:地点|5:7:日期时间
+weather_general	山西省忻州市宁武县怀道乡天气怎么样	0:12:地点
+weather_general	帮忙查天气	
+weather_general	帮我报一下天气如何	
+weather_general	广西壮族自治区南宁市横县石塘镇天气	0:15:地点
+weather_general	惠州明年十一月的二十九号天气如何	0:2:地点|2:10:日期时间
+weather_general	成南康后年7月十七日天气怎么样	0:3:地点|3:7:日期时间
+weather_general	承德县仓子乡天气	0:6:地点
+weather_general	报天气	
+weather_general	拦江镇天气	0:3:地点
+weather_general	播报一下天气	
+weather_general	播报一下天气如何	
+weather_general	播报天气	
+weather_general	攀枝花乡天气	0:4:地点
+weather_general	星期1的贵州省黔南布依族苗族自治州长顺县改尧镇天气	0:3:日期时间|4:19:地点
+weather_general	星期4天气咋样	0:3:日期时间
+weather_general	星期六杨楼孜镇天气	0:3:日期时间|3:4:地点
+weather_general	最近两天天气	0:4:日期时间
+weather_general	最近两天的云南省大理白族自治州宾川县金牛镇天气咋样	0:4:日期时间|5:16:地点
+weather_general	最近天气	0:2:日期时间
+weather_general	最近天气如何	0:2:日期时间
+weather_general	查一下天气	
+weather_general	查一下天气如何	
+weather_general	查天气	
+weather_general	查天气咋样	
+weather_general	查天气如何	
+weather_general	查天气怎么样	
+weather_general	栾城区栾城镇天气	0:6:地点
+weather_general	永城芒山天气	0:4:地点
+weather_general	江西省萍乡市芦溪县上埠镇天气	0:12:地点
+weather_general	洛尔达乡天气如何	0:4:地点
+weather_general	浙江省嘉兴市嘉善县杨庙镇天气如何	0:12:地点
+weather_general	浙江省宁波市象山县石浦镇周一天气怎么样	0:12:地点|12:2:日期时间
+weather_general	浙江省金华市浦江县大畈乡十一月三十一号天气怎么样	0:12:地点|12:7:日期时间
+weather_general	淮南市凤台县尚塘乡天气怎么样	0:9:地点
+weather_general	清明伏山镇天气	0:2:日期时间|2:3:地点
+weather_general	湖北省宜昌市长阳土家族自治县天气如何	0:14:地点
+weather_general	湖北省武汉市的天气	0:6:地点
+weather_general	湖南省怀化市芷江侗族自治县大龙乡的大后年五月九日天气怎么样	0:16:地点|17:7:日期时间
+weather_general	狂欢节的天气	0:3:日期时间
+weather_general	狂欢节的宿州市灵璧县尤集镇的天气	0:3:日期时间|4:9:地点
+weather_general	社里乡的天气	0:3:地点
+weather_general	给我报天气怎么样	
+weather_general	给我播报天气	
+weather_general	给我查天气怎么样	
+weather_general	罗源县西兰乡下月5号天气咋样	0:6:地点|6:4:日期时间
+weather_general	肃南裕固族自治县明花乡天气	0:11:地点
+weather_general	肃南裕固族自治白银蒙古族7月的28日的天气如何	0:12:地点|12:6:日期时间
+weather_general	肃州区清水镇天气如何	0:6:地点
+weather_general	西瑶乡天气如何	0:3:地点
+weather_general	这两天天气咋样	0:3:日期时间
+weather_general	这几天天气	0:3:日期时间
+weather_general	这几天的天气咋样	0:3:日期时间
+weather_general	这月的十号天气怎么样	0:5:日期时间
+weather_general	这阵子天气	0:3:日期时间
+weather_general	醴陵市南桥镇天气	0:6:地点
+weather_general	阳江市江城区南恩街道天气如何	0:10:地点
+weather_general	零陵区石山脚乡天气如何	0:7:地点
+weather_general	魁斗镇天气如何	0:3:地点
+weather_general	麻烦查天气如何	
+weather_general	黑水扎窝这阵子的天气	0:4:地点|4:3:日期时间
